@@ -21,7 +21,7 @@
 			</feature>
 		</config-file>
 
-		<config-file parent="/manifest" target="AndroidManifest.xml">
+		<config-file parent="/manifest" mode="merge" target="AndroidManifest.xml">
 			<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />                
 			<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />       		
 		</config-file>
